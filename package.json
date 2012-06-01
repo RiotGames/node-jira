@@ -1,7 +1,7 @@
 {
 	"name": "node-jira",
 	"description": "JIRA v4.3 SOAP Interface",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Basil Shkara <basil@neat.io>",
 	"keywords": ["jira"],
 	"main" : "lib/jira",
