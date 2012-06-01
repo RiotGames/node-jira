@@ -40,7 +40,7 @@ class JiraRPC
 
 class JiraREST
 	constructor: (@username, @password, @location) ->
-		@apiPath = url.resolve @location, 'rest/api/2.0.alpha1/'
+		@apiPath = url.resolve @location, 'rest/api/2/'
 
 	get: (methodName, params = {}, callback) ->
 		query = querystring.stringify params
